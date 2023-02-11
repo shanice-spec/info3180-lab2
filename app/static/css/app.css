@@ -1,3 +1,104 @@
-body {
-    padding-top: 5rem;
-}
+
+      body {
+        padding-top: 10rem;
+        font-size: 14px;
+        text-align: center;
+        width: 50em;
+      }
+      
+      
+      
+      .page-body
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+    
+      .page-header {
+        display: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      .page-header {
+        background: linear-gradient(160deg, #e3e0c3 30%, #ebda24 100%);
+        color: #fff;
+      }
+      
+      .page-wrapper {
+        border: 0.5px solid #c4c4c4;
+        border-radius: 5px;
+        width: 49%;
+        box-shadow: 1px 3px 4px #989984ec;
+    
+      }
+      .prof-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .page-text {
+        color: #3c3c3c;
+        width: 80%;
+        font-size: 0.9em;
+        margin-bottom: 2em;
+      }
+      #my-name {
+        font-weight: bold;
+    
+      }
+      #socialmedia {
+        font-size: 0.8em;
+      }
+     
+      
+      #social-status {
+        display: flex;
+        align-items: center;
+      }
+    
+      .social-med 
+      {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .social-med h3 
+      {
+        font-size: 1em;
+        font-weight: bold;
+      }
+      .profile-img {
+        height: 10em;
+        width: 10em;
+        border-radius: 50%;
+        box-shadow: 5px 3px 4px #00000040;
+        margin: 1em 0;
+      }
+      
+      .record 
+      {
+        font-size: 0.9em;
+        color: #9d9b9b;
+      }
+      
+      #follow {
+        border: none;
+        background-color: rgb(128, 58, 0);
+        padding: 5px 30px;
+        border-radius: 10px;
+        color: #ffff;
+        font-weight: bold;
+        margin-left: 20px;
+      }
+      
+      #follow:hover {
+        background-color: rgb(225, 190, 102);
+      }

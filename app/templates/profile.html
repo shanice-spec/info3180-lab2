@@ -1,0 +1,47 @@
+{% extends "base.html" %} 
+
+{% block main %}
+	<div class="prof-container">
+	  <div class="page-wrapper">
+	    <div class="page-header">
+	      <img
+	        src="{{ url_for('static', filename='profile.jpg') }}"
+	        alt=""
+	        class="profile-img"
+	      />
+	      <h2 id="my-name">Shanice Jones</h2>
+	      <p id="socialmedia">@_shanjo</p>
+	      <p>Kingston, Jamaica</p>
+	      <p>Joined {{ joind }}</p>
+	    </div>
+	    <div class="page-body">
+	      <p class="page-text">
+	        Hi, I am a website developer who is very talented and hardworking. Please contact me if you would like to work on a project together.
+            
+	      </p>
+	      <div id="social-status">
+	        <ul class="social-med">
+	          <li>
+	            <h3>20</h3>
+	          </li>
+	          <li class="records">Posts</li>
+	        </ul>
+	        <ul class="social-med">
+	          <li>
+	            <h3>200</h3>
+	          </li>
+	          <li class="record">Following</li>
+	        </ul>
+	        <ul class="social-med">
+	          <li>
+	            <h3>500</h3>
+	          </li>
+	          <li class="record">Followers</li>
+	        </ul>
+	      </div>
+	      <button id="follow">Follow Me</button>
+	    </div>
+	  </div>
+	
+    </div>
+{% endblock %}
